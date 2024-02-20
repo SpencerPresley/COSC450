@@ -131,16 +131,20 @@ was expensive for the manufacturers in the **second generation**
     - **Time Sharing** system to share CPU time between users using terminal
 
 #### Multiprogramming
+- **Technique to save CPU time**
 - Multiple jobs (processes) loaded onto RAM and ran concurrently
 - When CPU becomes avaialbe, one of the jobs in the **ready queue** are selected by **short term scheduler** which loads its current status from the **process table** to CPU and starts to run
 - OS needs to keep each job's current status in **process table (process control block)**
 
 #### Spooling
+- **Technique to save CPU time**
 - Buffering mechanism or a process by which data is temporarily held as a file to be used and executed by a device, program, or system.
 - Example:
     - Network printer
         - Process in which info to be printed is temporarily stored in a file, printing to be carried out later
         - Used to prevent slow printers from holding up the system at critical times, and to enable several computers or programs to share a single printer.
+        - When a process wants to print a file, it enters a file name in the **Spooler Directory**
+        - Printer **daemon** peridiocally checks **spooler directory** for any files that need to be printed.
 
 ### Fourth Generation: LSI & PC
 - 1980 ~ Present
@@ -173,3 +177,4 @@ was expensive for the manufacturers in the **second generation**
 - Embedded OS
 - Smart card OS
 - Smart phone OS
+
