@@ -102,6 +102,6 @@ Ex: A system is using second level page tables.
 
 **Second level page tables are page tables for pages**
 - Each second level page has `2^10` entries, and a page size of `4KB`, each second level page supports `2^10 * 4KB = 4MB` of virtual space.
-- There are $2^{10}$ second level page table, this example system support `4MB * 2^10 = 4GB` of virtual memory.
+- There are `$2^{10}$` second level page table, this example system support `4MB * 2^10 = 4GB` of virtual memory.
 
 
