@@ -98,7 +98,7 @@ In case HDD (Hard Drive Disk)
 - Page-Fault rate = p
 <br>  
 <br>  
-> $EffectiveAccessTime=(1-p)*200+8,000,000*p=200+7,999,800*p$
+$EffectiveAccessTime=(1-p)*200+8,000,000*p=200+7,999,800*p$
 
 <br>
 
